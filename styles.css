@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+
+body {
+	margin: 0;
+	width: 100%;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  color: #ccc;
+}
+
+.landing-page{
+	margin-top: 50px;
+}
+
+.img1{
+	margin-left: 100px;
+}
+
+.welcome-text{
+	float: left;
+	text-align: justify;
+	padding-left: 100px;
+	margin-right: 100px;
+}
+
+.header{
+	margin-top: 40px;
+	font-size: 100px;
+	letter-spacing: 3px;
+}
+
+.sub-header{
+	font-size: 25px;
+	letter-spacing: 3px;
+	line-height: 1.6;
+}
+
+.logo{
+	margin-left: 50px;
+}
+
+.circle1{
+	background-color: red;
+	height: 67px;
+	width: 67px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: -1;
+	border-style: solid;
+	border-color: white;
+}
+.circle2{
+	background-color: black;
+	height: 67px;
+	width: 67px;
+	border-radius: 100%;
+	margin-left: 25px;
+	position: absolute;
+	border-style: solid;
+	border-color: white;
+}
+.circle3{
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	margin-left: 47px;
+	margin-top: 20px;
+	transform: rotate(45deg);
+}
+
+.center{
+	margin: 0 auto;
+}
+
+.heart {
+  background-color: red;
+  opacity: 0.6;
+  height: 90px;
+  width: 90px;
+  transform: rotate(-45deg);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.heart::before,
+.heart::after {
+  content: '';
+  background-color: red;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  border-radius: 50%;
+  left: 45px;
+}
+.heart::before {
+  top: -45px;
+  left: 0;
+}
+
+.heart2 {
+  background-color: red;
+  height: 90px;
+  width: 90px;
+  transform: rotate(-45deg);
+  margin: 0 auto;
+}
+.heart2::before,
+.heart2::after {
+  content: '';
+  background-color: red;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  border-radius: 50%;
+  left: 45px;
+}
+.heart2::before {
+  top: -45px;
+  left: 0;
+}
